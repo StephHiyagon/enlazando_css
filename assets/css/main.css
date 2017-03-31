@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  font-family: Arial;
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+fieldset {
+  width: 200px;
+  height: 120px;
+  margin: auto;
+}
+
+input {
+  border:1px solid #ffa50a;
+  margin:2px;
+}
+
+input[type="submit"]{
+  background-color: #ffa50a;
+  cursor:pointer;
+}
+
+input[autofocus="on"]:hover {
+  border:2px solid #ffa50a;
+}
