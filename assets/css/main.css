@@ -1,4 +1,8 @@
 body {
+  background-image:url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
   text-align: center;
   font-family: Arial;
 }
@@ -8,8 +12,9 @@ img {
 }
 
 fieldset {
+  color: #ffa50a;
   width: 200px;
-  height: 120px;
+  height: 150px;
   margin: auto;
 }
 
@@ -25,4 +30,9 @@ input[type="submit"]{
 
 input[autofocus="on"]:hover {
   border:2px solid #ffa50a;
+}
+
+span {
+  font-size: 14px;
+  color:#ffa50a;
 }

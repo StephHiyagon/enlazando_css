@@ -15,11 +15,15 @@
   <fieldset>
     <legend>Datos de la coder</legend>
     <label for="usuario">Ingresa tu usuario</label>
-    <input type="text" name="usuario" autofocus="on"> <br>
+    <input id="js_email" type="text" name="usuario" placeholder="correo electrónico" autofocus="on"> <br>
+    <span id="js_email_error"></span> <br>
     <label for="password">Contraseña</label>
-    <input type="password" name="password" autofocus="on"> <br>
-    <input type="submit"  value="Enviar">
+    <input id="js_password" type="password" name="password" placeholder="contraseña" autofocus="on"> <br>
+    <span id="js_password_error"></span> <br>
+    <input id="js_envia" type="submit"  value="Enviar">
   </fieldset>
-
+<script src="assets/js/login.js" charset="utf-8"></script>
+<script src="assets/js/storage.js" charset="utf-8"></script>
+<script src="assets/js/login.js" charset="utf-8"></script>
 </body>
 </html>
